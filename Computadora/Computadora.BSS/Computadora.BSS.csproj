@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Computadora.DAL\Computadora.DAL.csproj" />
+    <ProjectReference Include="..\Computadora.Modelos\Computadora.Modelos.csproj" />
+  </ItemGroup>
+
 </Project>
